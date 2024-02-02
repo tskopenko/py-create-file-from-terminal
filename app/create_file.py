@@ -37,3 +37,6 @@ def main() -> None:
     if args.file:
         create_file(args.file)
 
+
+if __name__ == "__main__":
+    main()
