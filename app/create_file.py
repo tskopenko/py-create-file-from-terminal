@@ -29,7 +29,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
 
     parser.add_argument("-d", dest="directory", nargs="*")
-    parser.add_argument('-f', dest="file")
+    parser.add_argument("-f", dest="file")
     args = parser.parse_args()
 
     if args.directory:
